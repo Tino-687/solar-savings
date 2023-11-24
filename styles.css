@@ -13,11 +13,19 @@ body {
     height: auto;
 }
 
-/* Rest of your CSS */
-.info-bubble {
-    margin-top: 20px;
+
+.info-bubble, .email-bubble {
     padding: 10px;
-    background-color: #f0f0f0; /* Light grey background */
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid #ccc;
+    margin-top: 20px;
 }
+
+.info-bubble {
+    background-color: #f0f0f0; /* Light grey background for info bubble */
+}
+
+.email-bubble {
+    background-color: #d0e0f0; /* Different color for email bubble */
+}
+
