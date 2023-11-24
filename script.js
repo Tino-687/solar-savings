@@ -26,8 +26,8 @@ function displayExampleSavings() {
         <p>Monthly Savings: €90</p>
         <p>Payback Period: 5 years</p>
         <div class='info-bubble'>
-            You consume on average ${yearlyConsumption.toFixed(2)} kWh per year according to your electricity bill. 
-            The best way to cut energy costs is to cut down on usage!
+            You consume on average ${yearlyConsumption.toFixed(2)} kWh per month according to your electricity bill. 
+            Keep in mind that  the best way to cut energy costs is to cut down on usage!
         </div>
     `;
 
