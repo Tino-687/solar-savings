@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar Savings ESCP Prototype</title> <!-- Updated title -->
+    <title>Solar Savings ESCP Prototype</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,10 +11,25 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/ESCP_LOGO_CMJN.png" alt="ESCP Logo" />
     </div>
 
-    <h1>Solar Savings ESCP Prototype</h1> <!-- Updated main heading -->
+    <h1>Solar Savings ESCP Prototype</h1>
 
-    <!-- Rest of your HTML content -->
-    <!-- ... -->
+    <!-- Form for Address and Electricity Bill -->
+    <form id="savingsCalculator" onsubmit="displayExampleSavings(); return false;">
+        <label for="addressInput">Enter your address:</label>
+        <input type="text" id="addressInput" placeholder="Enter your address">
+
+        <label for="billInput">Enter your average electricity bill:</label>
+        <input type="text" id="billInput" placeholder="Enter your average electricity bill">
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <!-- Div for Displaying Results -->
+    <div id="results"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
+
 
