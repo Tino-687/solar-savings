@@ -15,9 +15,9 @@ function displayExampleSavings() {
     // Remove non-numeric characters and convert to number
     const numericBill = parseFloat(monthlyBill.replace(/[^\d.]/g, ''));
 
-    // Calculate the yearly consumption based on some average conversion factor
-    // For simplicity, we assume 1 euro = 1 kWh, which might not be accurate
-    const yearlyConsumption = numericBill * 12;
+    // Calculate the yearly consumption
+    // Here, we assume 0.5 euro = 1 kWh
+    const yearlyConsumption = (numericBill / 0.5) * 12;
 
     // Example static results with updated values
     const resultsHTML = `
@@ -26,7 +26,7 @@ function displayExampleSavings() {
         <p>Monthly Savings: €90</p>
         <p>Payback Period: 5 years</p>
         <div class='info-bubble'>
-            You consume on average ${yearlyConsumption} kWh per year according to your electricity bill. 
+            You consume on average ${yearlyConsumption.toFixed(2)} kWh per year according to your electricity bill. 
             The best way to cut energy costs is to cut down on usage!
         </div>
     `;
