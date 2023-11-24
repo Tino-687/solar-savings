@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    color: blue; /* Change default text color to blue */
+    color: blue; 
 }
 
 .logo-container {
@@ -9,7 +9,7 @@ body {
 }
 
 .logo-container img {
-    max-width: 400px; /* Adjust as necessary */
+    max-width: 400px; 
     height: auto;
 }
 
@@ -22,10 +22,10 @@ body {
 }
 
 .info-bubble {
-    background-color: #f0f0f0; /* Light grey background for info bubble */
+    background-color: #f0f0f0; 
 }
 
 .email-bubble {
-    background-color: #d0e0f0; /* Different color for email bubble */
+    background-color: #d0e0f0;
 }
 
