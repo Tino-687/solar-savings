@@ -28,4 +28,11 @@ body {
 .email-bubble {
     background-color: #d0e0f0;
 }
-
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
