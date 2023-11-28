@@ -19,15 +19,13 @@ function displayExampleSavings() {
     `;
 
     document.getElementById('results').innerHTML = resultsHTML;
-    // Show the email section
+
     document.getElementById('emailSection').style.display = 'block';
 }
 
 function sendQuoteRequest() {
     const email = document.getElementById('emailInput').value;
     if (email) {
-        // Here you would add logic to send the email to your server
-        // For demonstration, we'll just show an alert
         alert("Quote request sent! We will contact you at " + email);
     } else {
         alert("Please enter a valid email address.");
